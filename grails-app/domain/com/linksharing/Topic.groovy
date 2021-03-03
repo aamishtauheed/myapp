@@ -1,3 +1,8 @@
+package com.linksharing
+
+import com.linksharing.Resource
+import com.linksharing.Subscription
+
 class Topic {
     String tname;
     String createdBy;
@@ -8,7 +13,7 @@ class Topic {
     }
     Visibility visibility
     static belongsTo=[createdByuser:User]
-    static hasMany=[subscriptions:Subscription,resources:Resource]
+    static hasMany=[subscriptions: Subscription, resources: Resource]
     static constraints={
         tname nullable:false,maxSize: 255
         createdBy nullable:false,maxSize:255

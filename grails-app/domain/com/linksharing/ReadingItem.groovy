@@ -1,5 +1,7 @@
+package com.linksharing
+
 class ReadingItem {
-    static belongsTo=[resource:Resource,user:User]
+    static belongsTo=[resource:Resource, user:User]
     boolean isRead
     static constraints={
         isRead nullable:false;

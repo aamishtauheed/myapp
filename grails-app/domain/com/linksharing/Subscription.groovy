@@ -1,5 +1,7 @@
+package com.linksharing
+
 class Subscription {
-    static belongsTo=[user:User,topic:Topic]
+    static belongsTo=[user:User, topic:Topic]
     enum seriousness {
         CASUAL,SERIOUS,VERYSERIOUS;
     }

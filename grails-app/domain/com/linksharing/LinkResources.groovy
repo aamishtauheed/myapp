@@ -1,3 +1,5 @@
+package com.linksharing
+
 class LinkResources {
     String urls
     static belongsTo=[resource:Resource]

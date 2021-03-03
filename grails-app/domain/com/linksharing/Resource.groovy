@@ -1,8 +1,12 @@
+package com.linksharing
+
+import com.linksharing.ReadingItem
+
 class Resource {
     String title;
     String description;
-    static belongsTo=[createdBy:User,topic:Topic]
-    static hasMany=[readingItems:ReadingItem,]
+    static belongsTo=[createdBy:User, topic:Topic]
+    static hasMany=[readingItems: ReadingItem,]
     Date datecreated;
     Date lastUpdated;
 
